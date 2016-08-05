@@ -1,0 +1,115 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "85bcbe782e189e250bb4f303ca275f0029a6fd7d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "GoogleCloudUpload/1.0.0": {
+        "dependencies": {
+          "Google.Apis.Storage.v1": "1.15.0.560"
+        },
+        "runtime": {
+          "GoogleCloudUpload.dll": {}
+        }
+      },
+      "Google.Apis/1.15.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.15.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.15.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.15.0",
+          "Newtonsoft.Json": "9.0.1",
+          "Portable.BouncyCastle": "1.8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard1.3/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.15.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Storage.v1/1.15.0.560": {
+        "dependencies": {
+          "Google.Apis": "1.15.0",
+          "Google.Apis.Auth": "1.15.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Storage.v1.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/crypto.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoogleCloudUpload/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B//vbZgUsR0jdJztCJ0ORmVcAzhoiisIsxwc1libVjoZzu+kxUKNJKUl5Wlkj7V28kauS56y3hJUj3FMsgaJZQ=="
+    },
+    "Google.Apis.Auth/1.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gBMi03/CjodxVVjByVvvaE4To9905Oe6o59oxzP6AI5uZaab9zNclR+2cu6OcnS5wOIpf5DKAWd+jlSshuZ/cw=="
+    },
+    "Google.Apis.Core/1.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-izmsmat5RRL0bmJ2tr3SvlqEiGf40wDeOTHv0PJOVUvHoZBdAaVbbZFxtevOWOyo878mwpYGXfzMs5Zfoyfrfw=="
+    },
+    "Google.Apis.Storage.v1/1.15.0.560": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yzmy+7pEbd/dXITte2wklFLkPDmbjH8SQUB/kmAcxnwnF6tz6Yt+d63UBcISV7DkU+aL/7r3LhbY0aUvQqJq0Q=="
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+    },
+    "Portable.BouncyCastle/1.8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bKqC2Me9ukybNYTBhlYd2sJ6j2kRV7SgB+JfiP2GueYq6QdM4Ym6PYV5eyrqb6KViOyd3zqQfJp0o6UW5ZG+GQ=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    }
+  }
+}
